@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    overflow-y: scroll;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+}
+
+.about::before{
+    background: url('/img/homebg.jpg') no-repeat center center/cover;
+    background-position: fixed;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.image img{
+    position: absolute;
+    right: 20px;
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+    margin-right: 80px;
+    /* box-shadow: 6px 6px 9px; */
+}
+.abtclass{
+    /* display: flex; */
+    top: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: 141px auto;
+    margin-bottom: 56px;
+    width: 80%;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+.paras{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 40px; */
+    width: 60%;
+    color: bisque;
+    margin: auto;
+}
+.icons img{
+    height: 44px;
+    /* width: 40px; */
+    margin: 2px 50px;
+    padding: 4px;
+    display: inline-block;
+}
+.icons{
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+}
